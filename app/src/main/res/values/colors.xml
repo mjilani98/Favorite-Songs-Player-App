@@ -2,57 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <!-- Combination 1 -->
-    <color name="sunset_orange">#FF5E5B</color>
-    <color name="lemon_yellow">#FFED66</color>
-    <color name="sky_blue">#00CECB</color>
-
-    <!-- Combination 2 -->
-    <color name="deep_purple">#6A0572</color>
-    <color name="rich_maroon">#AB274F</color>
-    <color name="soft_pink">#F49FB6</color>
-
-    <!-- Combination 3 -->
-    <color name="forest_green">#2C5F2D</color>
     <color name="earth_brown">#8B5E3C</color>
     <color name="light_moss">#A1C181</color>
-
-    <!-- Combination 4 -->
-    <color name="midnight_blue">#003366</color>
-    <color name="steel_gray">#4F6D7A</color>
-    <color name="ice_white">#F0F5F9</color>
-
-    <!-- Combination 5 -->
-    <color name="flamingo_pink">#FC85AE</color>
-    <color name="peach_orange">#FCD581</color>
-    <color name="mint_green">#A0E8AF</color>
-
-    <!-- Combination 6 -->
-    <color name="charcoal_black">#2E2E2E</color>
-    <color name="cool_gray">#A9A9A9</color>
-    <color name="snow_white">#FFFFFF</color>
-
-    <!-- Combination 7 -->
-    <color name="navy_blue">#1A1A80</color>
-    <color name="emerald_green">#50C878</color>
-    <color name="pale_gold">#E6BE8A</color>
-
-    <!-- Combination 8 -->
-    <color name="candy_red">#E63946</color>
-    <color name="butter_yellow">#F1FA8C</color>
-    <color name="cool_teal">#00BFB3</color>
-
-    <!-- Combination 9 -->
-    <color name="plum_purple">#8E4585</color>
-    <color name="lavender_blue">#B3A1D9</color>
-    <color name="cream_white">#FFFDD0</color>
-
-    <!-- Combination 10 -->
-    <color name="tropical_blue">#89CFF0</color>
-    <color name="sunflower_yellow">#FFC107</color>
-    <color name="coral_orange">#FF7F50</color>
-
-
     <color name="red_primary">#F44336</color>
 </resources>
