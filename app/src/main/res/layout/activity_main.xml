@@ -1,19 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_moss"
     tools:context=".MainActivity">
 
-    <TextView
+<!--    play button -->
+    <Button
+        android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:text="Play"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/earth_brown"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--    Pause button -->
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/btnPlay"
+        android:text="pause"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/earth_brown"
+        />
+
+<!--    Resume button -->
+    <Button
+        android:id="@+id/btnResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btnPause"
+        android:text="Resume"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/earth_brown"
+        />
+
+<!--    Stop button -->
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPause"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Stop"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/red_primary"
+        />
+</RelativeLayout>
