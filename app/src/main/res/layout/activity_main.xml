@@ -18,6 +18,7 @@
         android:textSize="20dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/earth_brown"
+        android:onClick="play"
         />
 
 <!--    Pause button -->
@@ -33,6 +34,7 @@
         android:textSize="20dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/earth_brown"
+        android:onClick="pause"
         />
 
 <!--    Resume button -->
@@ -47,6 +49,7 @@
         android:textSize="20dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/earth_brown"
+        android:onClick="resume"
         />
 
 <!--    Stop button -->
@@ -61,5 +64,6 @@
         android:textSize="20dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/red_primary"
+        android:onClick="stop"
         />
 </RelativeLayout>
